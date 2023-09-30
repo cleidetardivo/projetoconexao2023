@@ -1,0 +1,87 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 20px;
+}
+
+#titulo{
+    text-align: center;
+    color: purple;
+}
+
+#conteudo-logo{
+    text-align: center;
+}
+
+#logo{
+    width: 200px;
+    /* height: 200px; */
+}
+
+.pergunta-enunciado {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.formulario-conteudo-questao {
+    margin-bottom: 20px;
+    /* Dá espaçamento exterior */
+    border: solid 1px black;
+    padding: 10px;
+    /* Da espaçamento interno */
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#formulario-conteudo-botao {
+    margin-bottom: 20px;
+    /* Dá espaçamento exterior */
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+    /* Da espaçamento interno */
+    text-align: center;
+}
+
+#botao-enviar {
+    width: 200px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#mensagem-resposta {
+    display: none;
+    margin-bottom: 20px;
+    /* Dá espaçamento exterior */
+    border: dotted 1px black;
+    padding: 10px;
+    /* Da espaçamento interno */
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.resposta-pontuacao {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#botao-responder-novamente {
+    color: blue;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.questao-respondida{
+    background-color: lightgreen;
+}
+
+.questao-nao-respondida{
+    background-color: #FFA07A;
+}
