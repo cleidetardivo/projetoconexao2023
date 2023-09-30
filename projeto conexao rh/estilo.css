@@ -16,7 +16,7 @@ body{
 }
 
 #logo{
-    width: 200px;
+    width: 150px;
     /* height: 200px; */
 }
 
@@ -64,18 +64,34 @@ body{
     padding: 10px;
     /* Da espaçamento interno */
     text-align: center;
-    background-color: lightgreen;
+    background-color: rgb(238, 144, 196);
 }
 
 .resposta-pontuacao {
     font-weight: 700;
     font-size: 18px;
+    background-color: darkkhaki;
 }
 
 #botao-responder-novamente {
+    text-align: left;
     color: blue;
     font-weight: 700;
-    text-decoration: none;
+    background-color: #FFA07A;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: uppercase;
+    
+   /* width: 200px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;*/
+    
 }
 
 .questao-respondida{
